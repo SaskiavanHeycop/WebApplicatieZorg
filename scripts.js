@@ -16,14 +16,16 @@ $(document).ready(function () {
 								"Tanden poetsen ochtend":"haardoen.html",
 								"Haar doen":"tasinpakken.html",
 								"Tas inpakken":"naarschool.html",
-								"Naar school":"index.html",
+								"Naar school":"eindochtend.html",
+								"Eind ochtend":"index.html",
 								"Pyjama aantrekken":"tandenpoetsenavond.html",
 								"Tanden poetsen avond":"naarbed.html",
-								"Naar bed":"index.html",
+								"Naar bed":"eindavond.html",
+								"Eind avond":"index.html",
 							};
 			var next_page = dictionary[document.title];
 			window.open(next_page,"_self")
-		},2000);
+		},1000);
 });
 	
 });
