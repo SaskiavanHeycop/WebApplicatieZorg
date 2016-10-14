@@ -11,8 +11,19 @@ $(document).ready(function () {
 		obj.play();
 		setTimeout(function(){
 			$('#overlay').hide();
-			window.open("ontbijten.html","_self")
-		},3000);
+			var dictionary = {	"Aankleden":"ontbijten.html",
+								"Ontbijten":"tandenpoetsenochtend.html",
+								"Tanden poetsen ochtend":"haardoen.html",
+								"Haar doen":"tasinpakken.html",
+								"Tas inpakken":"naarschool.html",
+								"Naar school":"index.html",
+								"Pyjama aantrekken":"tandenpoetsenavond.html",
+								"Tanden poetsen avond":"naarbed.html",
+								"Naar bed":"index.html",
+							};
+			var next_page = dictionary[document.title];
+			window.open(next_page,"_self")
+		},2000);
 });
 	
 });
