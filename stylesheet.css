@@ -1,0 +1,77 @@
+h1{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	color: gray;
+	text-align: center;
+}
+header{
+	border: 1px solid white;
+	float: left;
+	width: 85%;
+	min-width: 300px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1em;
+	padding: 1em;
+	
+}
+body{
+	background-image: url(afb/bckgrnd.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#index_keuze{
+	border: 1px solid white;
+	float: left;
+	width: 85%;
+	min-width: 300px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1em;
+	padding: 1em;
+}
+#afbeelding{
+	border: 1px solid white;
+	float: left;
+	width: 85%;
+	min-width: 300px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1em;
+	padding: 1em;	
+}
+#afbeelding img{
+	display: block;
+	margin: auto;
+}
+footer{
+	border: 1px solid white;
+	float: left;
+	width: 85%;
+	min-width: 300px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1em;
+	padding: 1em;
+	
+}
+#overlay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: gray;
+	opacity: .7;
+	display: none;
+}
+#olimg{
+	position: absolute;
+	display: none;
+	margin: auto;
+}
+#olimg img{
+	display: block;
+	margin: auto;
+	width: 60%; 
+	height: 60%;
+	padding-top: 150px;
+}
