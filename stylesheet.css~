@@ -2,5 +2,5 @@ h1{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
 }
 body{
-	background-image: afb/bckgrnd.jpg;
+	background-image: afbeelding2.jpg;
 }
