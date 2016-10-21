@@ -26,15 +26,16 @@ body{
 	padding: 1em;
 }
 #handeling{
-	height:700px;
+	height:500px;
 }
 #vink{
-	height:250px;
+	height:200px;
 	margin-top: 150px;
+	margin-left: 100px;
 }
 #help{
 	height:90px; 
-	margin-top: 50px;
+	margin-top: 20px;
 }
 #overlay{
 	position: absolute;
@@ -54,8 +55,8 @@ body{
 #olimg img{
 	display: block;
 	margin: auto;
-	width: 80%; 
-	height: 80%;
+	width: 60%; 
+	height: 60%;
 	padding-top: 150px;
-	padding-left: 500px;
+	padding-left: 150px;
 }

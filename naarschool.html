@@ -3,26 +3,40 @@
 	<head>
 		<meta charset = "UTF-8"/>
 		<title>Naar school</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<script src="jquery-3.1.1.js"></script>
 		<script src="scripts.js"></script>
 	</head>
 	<body>
-		<header>
-			<h1> Naar school</h1>
-		</header>
-		
-			<div id="afbeelding">
-				<img src="afb/o_naarschool.png" alt="School gebouw" height="300"/> 
-			</div>
-		
-		<div id="overlay"></div>
-		<div id="olimg"><img src="afb/vink.png" height="500px"></div>
-		
-		<footer>
-			<a href="help.html"><img src="afb/help.png" alt= "Help knop" height="50px" align="left"></a>
-			<img src="afb/vink.png" alt= "Groene vink" height="150px" align="right" id="vink">
-		</footer>
-
-	</body>
-	</html>
+		<div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+			        <h1> Naar school</h1>
+		        </div>
+            </div>
+		    <div class="row">
+                <div class="col-xs-1"> </div>
+                <div class="col-xs-5">
+			        <div id="afbeelding_handeling">
+				        <img src="afb/o_naarschool.png" alt="School gebouw" id="handeling"> 
+			        </div>
+			    </div>
+                <div class="col-xs-5">
+                    <div id="afbeelding_vink">
+                        <img src="afb/vink.png" alt= "Groene vink" id="vink">
+                    </div>
+                </div>
+                <div class="col-xs-1"> </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1"> </div>
+                <div class="col-xs-11">
+                    <a href="help.html"><img src="afb/help.png" alt="Help knop" id="help"></a>
+                </div>
+            </div>
+        </div>
+        <div id="overlay"></div>
+        <div id="olimg"><img src="afb/vink.png"></div>
+    </body>
+</html>	
